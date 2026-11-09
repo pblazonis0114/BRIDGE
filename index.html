@@ -1,0 +1,71 @@
+<!DOCTYPE html> <html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>BRIDGE - Parole Officer Dashboard</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body> <!-- Main Grid Wrapper -->  
+<div class="dashboard-container">  
+      
+    <!-- Sidebar Navigation -->  
+    <aside class="sidebar">  
+        <div class="logo">BRIDGE</div>  
+        <nav class="nav-links">  
+            <a href="#" class="active">📊 Dashboard</a>  
+            <a href="#">👥 Caseload</a>  
+            <a href="#">📅 Appointments</a>  
+            <a href="#">⚠️ Alerts</a>  
+            <a href="#">⚙️ Settings</a>  
+        </nav>  
+    </aside>  
+
+    <!-- Main Content Area -->  
+    <main class="main-content">  
+          
+        <!-- Header -->  
+        <header class="content-header">  
+            <h1>Welcome Back, Officer Blazonis</h1>  
+            <div class="user-badge">JCCC District Office</div>  
+        </header>  
+
+        <!-- Metrics Row (Flexbox) -->  
+        <section class="metrics-row">  
+            <div class="card metric-card">  
+                <h3>Active Cases</h3>  
+                <p class="metric-number">42</p>  
+                <span class="metric-subtext">5 pending review</span>  
+            </div>  
+            <div class="card metric-card alert-card">  
+                <h3>Missed Check-ins</h3>  
+                <p class="metric-number">3</p>  
+                <span class="metric-subtext">Requires immediate action</span>  
+            </div>  
+            <div class="card metric-card">  
+                <h3>Scheduled Today</h3>  
+                <p class="metric-number">8</p>  
+                <span class="metric-subtext">Next appointment: 1:00 PM</span>  
+            </div>  
+        </section>  
+
+        <!-- Secondary Layout Zone (Grid) -->  
+        <section class="details-grid">  
+            <div class="card recent-activity">  
+                <h2>Recent Activity Log</h2>  
+                <ul class="activity-list">  
+                    <li>🔵 Case #10842 updated dynamic travel zone restrictions</li>  
+                    <li>🟢 Case #10591 checked in successfully via mobile verification</li>  
+                    <li>🔴 Case #10322 flagged: Left assigned boundary area</li>  
+                </ul>  
+            </div>  
+            <div class="card system-status">  
+                <h2>Platform Status</h2>  
+                <div class="status-indicator">All Systems Operational</div>  
+            </div>  
+        </section>  
+
+    </main>  
+</div>
+
+</body>  
+</html>  
